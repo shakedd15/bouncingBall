@@ -1,0 +1,78 @@
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+#firstBall {
+    background-color: #66fffd;
+    position: relative;
+
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+#secondBall {
+    background-color: #5ec1ff;
+    position: relative;
+
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#thirdBall {
+    background-color: #518dc0;
+    position: relative;
+
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#fourthBall {
+     background-color: #b07eb6;
+     position: relative;
+
+     /* Standard syntax */
+     animation-name: example;
+     animation-duration: 1.5s;
+     animation-delay: 0.2s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+ }
+
+#fifthBall {
+    background-color: #fca8e2;
+    position: relative;
+
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+body{
+    background-color: black;
+}
